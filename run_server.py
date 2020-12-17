@@ -3,7 +3,7 @@
 # 	python run_server.py
 # Submit a request via cURL:
 # 	curl -X POST -F image=@dog.jpg 'http://localhost:5000/predict'
-# Submita a request via Python:
+# Submit a request via Python:
 #	python simple_request.py
 
 # import the necessary packages
@@ -11,7 +11,6 @@ import numpy as np
 import dill
 import pandas as pd
 dill._dill._reverse_typemap['ClassType'] = type
-#import cloudpickle
 import flask
 
 # initialize our Flask application and the model

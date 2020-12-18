@@ -55,7 +55,7 @@ def predict():
 		comment = ""
 		request_json = flask.request.get_json()
 		if request_json["comment"]:
-			description = request_json['comment']
+			comment = request_json['comment']
 
 		logger.info(f'{dt} Data: comment={comment}')
 		try:

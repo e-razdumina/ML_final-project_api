@@ -22,5 +22,5 @@ comment (text)
 <br>$ docker build -t e-razdumina/ml_final-project_api .</br>
 <br>Запускаем контейнер</br>
 
-<br>$ docker run -d -p 8180:8180 -p 8181:8181 e-razdumina/ML_final-project_api</br>
+<br>$ docker run -d -p 8180:8180 -p 8181:8181 e-razdumina/ml_final-project_api</br>
 <br>Переходим на localhost:8181</br>

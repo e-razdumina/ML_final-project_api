@@ -17,10 +17,10 @@ comment (text)
 
 Клонируем репозиторий и создаем образ
 
-$ git clone https://github.com/e-razdumina/ml_final-project_api.git
-$ cd ml_final-project_api
-$ docker build -t e-razdumina/ml_final-project_api .
-Запускаем контейнер
+<br>$ git clone https://github.com/e-razdumina/ml_final-project_api.git</br>
+<br>$ cd ml_final-project_api</br>
+<br>$ docker build -t e-razdumina/ml_final-project_api .</br>
+<br>Запускаем контейнер</br>
 
-$ docker run -d -p 8180:8180 -p 8181:8181 e-razdumina/ML_final-project_api
-Переходим на localhost:8181
+<br>$ docker run -d -p 8180:8180 -p 8181:8181 e-razdumina/ML_final-project_api</br>
+<br>Переходим на localhost:8181</br>
